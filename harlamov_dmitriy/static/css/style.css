@@ -1,0 +1,98 @@
+/* *******************************************************************************************************************************
+Харламов Дмитрий <pureexplosion@gmail.com>
+22/05/2016 7:06:34
+style.css - применяется для определения стилей элементов веб-страницы.
+Расположен в  harlamov_dmitriy/static/css
+*********************************************************************************************************************************/
+
+body{
+	background:#3366CC; /*Цвет фона*/
+}
+
+/*Стили заголовков*/
+h1{
+	font-family: monospace; /*Стиль текста*/
+    color: white; /* Цвет текста */
+	font-size: 60px; /*Размер текста*/
+	margin-top:20px; /*Отступ сверху*/
+	margin-bottom:20px; /* Отступ снизу */
+}
+
+h2{
+	font-family: monospace;
+	color: white;
+	font-size: 30px;
+	margin-bottom:20px;
+}
+
+h3{
+	font-family: monospace;
+	color: white;
+	font-size: 20px;
+	margin-bottom:0px;
+}
+#layer {
+	font-family: monospace;
+	color: white;
+	font-size: 20px;
+    bottom: 130px; /* Расстояние от нижнего края окна браузера */
+    position: absolute; /* Абсолютное позиционирование */
+    padding: 7px; /* Поля вокруг текста */
+   }
+div {
+    height: 10px; /* Высота блока */
+    background: url(static/images/main.jpg) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+   }
+
+/*Стиль ссылок*/
+a{
+	color: white; /* Цвет обычной ссылки */ 
+    text-decoration: none
+}
+a:visited {
+    color: white; /* Цвет посещённой ссылки */
+   } 
+a:hover {
+    color: #FFFFCC; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+/*Стиль картинки*/
+.centerimg{
+	width:100%;
+	height:350px;
+	float:center;/*Выравнивание картинки по центру*/
+	margin:0px 5px 5px 0px;/*Отступы вокруг картинки*/
+}
+
+p{
+    color: white; /* Цвет текста */
+	font-size: 20px;
+}
+ul.hr {
+	font-family: monospace;
+	color: white;
+	font-size: 20px;
+	margin-bottom:0px;
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+   }
+p.vid{
+	font-size: 20px;
+}
+
+/*Стиль подвала сайта*/
+footer{
+	position: fixed ; /* Фиксированное положение *//*fixed*/
+	left: 0; bottom: 0; /* Левый нижний угол */
+	padding: 10px; /* Поля вокруг текста */
+	background: #3366CC; /* Цвет фона */
+	font-family: monospace;
+	color: white; /* Цвет текста */
+	width: 100%; /* Ширина слоя */
+}
